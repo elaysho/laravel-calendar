@@ -30,3 +30,8 @@ A simple web app that can add events to a calendar.
 
 - Run `npm run dev` or `npm run prod` depending on your environment
 - Run `php artisan migrate`
+
+## Screenshots
+![Screenshot 1](./public/img/screenshot-1.png "Screenshot 1")
+![Screenshot 2](./public/img/screenshot-2.png "Screenshot 2")
+![Screenshot 3](./public/img/screenshot-3.png "Screenshot 3")
