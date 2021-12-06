@@ -27,6 +27,7 @@
     "dependencies": {
         "@tailwindcss/typography": "^0.4.1",
         "daisyui": "^1.16.2",
+        "dotenv": "^10.0.0",
         "jquery": "^3.6.0",
         "sweetalert2": "^11.2.2",
         "vue-axios": "^3.4.0",

@@ -5495,6 +5495,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('App component mounted.');
@@ -43177,7 +43179,42 @@ var render = function () {
             "navbar mb-2 shadow-lg bg-base-300 text-base-content rounded-box",
         },
         [
-          _c("div", { staticClass: "flex-none" }),
+          _c("div", { staticClass: "flex-none pl-2" }, [
+            _c(
+              "svg",
+              {
+                staticClass: "feather feather-calendar",
+                attrs: {
+                  xmlns: "http://www.w3.org/2000/svg",
+                  width: "24",
+                  height: "24",
+                  viewBox: "0 0 24 24",
+                  fill: "none",
+                  stroke: "currentColor",
+                  "stroke-width": "2",
+                  "stroke-linecap": "round",
+                  "stroke-linejoin": "round",
+                },
+              },
+              [
+                _c("rect", {
+                  attrs: {
+                    x: "3",
+                    y: "4",
+                    width: "18",
+                    height: "18",
+                    rx: "2",
+                    ry: "2",
+                  },
+                }),
+                _c("line", { attrs: { x1: "16", y1: "2", x2: "16", y2: "6" } }),
+                _c("line", { attrs: { x1: "8", y1: "2", x2: "8", y2: "6" } }),
+                _c("line", {
+                  attrs: { x1: "3", y1: "10", x2: "21", y2: "10" },
+                }),
+              ]
+            ),
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "flex-1 px-2 mx-2" }, [
             _c("span", { staticClass: "text-lg font-bold" }, [

@@ -47,7 +47,6 @@ Vue.mixin({
     }
 });
 
-
 const router = new VueRouter({
     base: baseURL + '/vue',
     mode: 'history',
