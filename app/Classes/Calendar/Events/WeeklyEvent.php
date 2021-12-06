@@ -78,8 +78,14 @@ class WeeklyEvent implements Event {
         unset($validated['_token']);
 
         $this->event = $this->event->updateOrCreate(
+            // If there could be more than 1 event per date period
+            // $request->except([
+            //     'recurring_values', '_token'
+            // ]),
+
+            // If only one event per date period is allowed
             $request->except([
-                'recurring_values', '_token'
+                'title', 'recurring_values'
             ]),
             $validated
         );
