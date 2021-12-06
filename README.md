@@ -4,6 +4,16 @@ A simple web app that can add events to a calendar.
 ## Project Details
 - **Backend:** Laravel/PHP
 - **Frontend:** Vue.js
+- **Packages:**
+    - composer
+        - laravel/ui
+    - npm
+        - @tailwindcss/typography
+        - daisyui
+        - jquery
+        - sweetalert2
+        - vue-axios
+        - vue-router
 
 ## Installation
 - Create a copy of `.env.example` and set up project's `.env`
