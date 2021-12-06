@@ -10,6 +10,7 @@
 
 ### Changed
 - Changed store condition of event to if only one event per date period is allowed
+- Changed store condition of event to default
 
 ### Removed
 - Removed drawer icon on App.vue
