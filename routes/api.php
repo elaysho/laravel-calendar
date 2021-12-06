@@ -19,7 +19,7 @@ Route::resource('calendar', CalendarController::class, [
 ]);
 
 Route::prefix('v1')->group(function() {
-    Route::resource('events', v1\CalendarEventController::class, [
+    Route::resource('events', CalendarEventController::class, [
         'only' => ['index', 'store']
     ]);
 });

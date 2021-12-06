@@ -25,8 +25,8 @@ class StoreCalendarEvent extends FormRequest
     {
         return [
             'title'             => ['required', 'string'],
-            'from'              => ['required', 'date', 'date_format:Y-m-d'],
-            'to'                => ['required', 'date', 'date_format:Y-m-d'],
+            'from'              => ['required', 'date', 'date_format:Y-m-d', 'before_or_equal:' . $this->to],
+            'to'                => ['required', 'date', 'date_format:Y-m-d', 'after_or_equal:' . $this->from],
             'recurring_values'  => ['required', 'array']
         ];
     }
@@ -36,6 +36,8 @@ class StoreCalendarEvent extends FormRequest
      */
     public function attributes() {
         return [
+            'from' => 'start date',
+            'to' => 'end date',
             'recurring_values' => 'days'
         ];
     }

@@ -42879,7 +42879,7 @@ var render = function () {
     ? _c(
         "div",
         _vm._l(_vm.validationErrors, function (value, key, index) {
-          return _c("span", { key: index, staticClass: "text-error ml-2" }, [
+          return _c("span", { key: index, staticClass: "text-error px-2" }, [
             _vm._v("\n        " + _vm._s(value) + "\n    "),
           ])
         }),
