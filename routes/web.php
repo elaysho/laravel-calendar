@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/vue/{any}', function () {
     return view('layout.vue');
-})->where('any', '.*');
+})->where('any', '.*')->name('vue.app');
+
+Route::get('/', function() {
+    return redirect('/vue/calendar');
+});

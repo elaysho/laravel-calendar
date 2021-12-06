@@ -19,3 +19,4 @@ A simple web app that can add events to a calendar.
     ```
 
 - Run `npm run dev` or `npm run prod` depending on your environment
+- Run `php artisan migrate`

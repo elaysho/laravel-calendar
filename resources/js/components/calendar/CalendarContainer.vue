@@ -3,7 +3,7 @@
         <div class="flex flex-row space-x-2 justify-content-between align-items-center">
             <button class="btn btn-outline btn-square sm:btn-md lg:btn-md" @click="changeMonth(false, true)">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
-                    <path d="M21 24l-18-12 18-12v24zm-16.197-12l15.197 10.132v-20.263l-15.197 10.131"/>
+                    <path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/>
                 </svg>
             </button> 
 
@@ -13,7 +13,7 @@
 
             <button class="btn btn-outline btn-square sm:btn-md lg:btn-md" @click="changeMonth(true, false)">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current">
-                    <path d="M3 24l18-12-18-12v24zm16.197-12l-15.197 10.132v-20.263l15.197 10.131"/>
+                    <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/>
                 </svg>
             </button> 
         </div>

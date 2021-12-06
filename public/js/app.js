@@ -5630,6 +5630,7 @@ __webpack_require__.r(__webpack_exports__);
             title: 'Event successfully added!'
           });
           _this2.eventsPerDate = response.data.events;
+          _this2.errors = [];
         }
       })["catch"](function (error) {
         if (error.response.status == 422) {
@@ -42988,7 +42989,7 @@ var render = function () {
               [
                 _c("path", {
                   attrs: {
-                    d: "M21 24l-18-12 18-12v24zm-16.197-12l15.197 10.132v-20.263l-15.197 10.131",
+                    d: "M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z",
                   },
                 }),
               ]
@@ -43037,7 +43038,7 @@ var render = function () {
               [
                 _c("path", {
                   attrs: {
-                    d: "M3 24l18-12-18-12v24zm16.197-12l-15.197 10.132v-20.263l15.197 10.131",
+                    d: "M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z",
                   },
                 }),
               ]
@@ -43287,7 +43288,7 @@ var render = function () {
                   "div",
                   {
                     staticClass:
-                      "bg-base-100 rounded-box shadow space-y-2 mt-3 p-3",
+                      "bg-base-300 rounded-box shadow space-y-2 mt-3 p-3",
                   },
                   [
                     _c("input", {

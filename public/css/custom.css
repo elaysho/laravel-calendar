@@ -1,3 +1,7 @@
 body {
     height: 100vh;
 }
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}

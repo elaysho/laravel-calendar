@@ -7,7 +7,7 @@
                 </label>
 
                 <form @submit.prevent="addEvent()">
-                    <div class="bg-base-100 rounded-box shadow space-y-2 mt-3 p-3">
+                    <div class="bg-base-300 rounded-box shadow space-y-2 mt-3 p-3">
                         <input type="text" placeholder="Event Title" class="input input-bordered text-base-content w-full" v-model="product.title">
                         <form-error v-if="errors.title" :errors="errors.title"></form-error>
 
@@ -106,6 +106,7 @@
                             });
 
                             this.eventsPerDate = response.data.events;
+                            this.errors = [];
                         }
                     })
                     .catch(error => {
