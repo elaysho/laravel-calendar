@@ -5497,10 +5497,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   mounted: function mounted() {
     console.log('App component mounted.');
@@ -43183,38 +43179,7 @@ var render = function () {
             "navbar mb-2 shadow-lg bg-base-300 text-base-content rounded-box",
         },
         [
-          _c("div", { staticClass: "flex-none" }, [
-            _c(
-              "label",
-              {
-                staticClass: "btn btn-square btn-ghost drawer-button",
-                attrs: { for: "calendar-drawer" },
-              },
-              [
-                _c(
-                  "svg",
-                  {
-                    staticClass: "inline-block w-6 h-6 stroke-current",
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      fill: "none",
-                      viewBox: "0 0 24 24",
-                    },
-                  },
-                  [
-                    _c("path", {
-                      attrs: {
-                        "stroke-linecap": "round",
-                        "stroke-linejoin": "round",
-                        "stroke-width": "2",
-                        d: "M4 6h16M4 12h16M4 18h16",
-                      },
-                    }),
-                  ]
-                ),
-              ]
-            ),
-          ]),
+          _c("div", { staticClass: "flex-none" }),
           _vm._v(" "),
           _c("div", { staticClass: "flex-1 px-2 mx-2" }, [
             _c("span", { staticClass: "text-lg font-bold" }, [
